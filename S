@@ -1,0 +1,29 @@
+[33mcommit 18e8d6c3ee2ac71d1705076ffba8f21f0bd31c64[m[33m ([m[1;36mHEAD -> [m[1;32minicial[m[33m, [m[1;31morigin/inicial[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: srDarus <claudio.vargas.lillo@gmail.com>
+Date:   Sun Nov 18 23:59:21 2018 -0300
+
+    servicio sin respuesta
+
+[33mcommit d6526f9036fccaacdaf6e519e58369b9e7238277[m
+Author: darus <claudio.vargas.lillo@gmail.com>
+Date:   Sun Nov 11 18:19:35 2018 -0300
+
+    login sin db
+
+[33mcommit 9f04ca135eaf12201f6d5b8d313faa09439336f7[m
+Author: srDarus <claudio.vargas.lillo@gmail.com>
+Date:   Sun Nov 11 15:08:31 2018 -0300
+
+    login incompleto
+
+[33mcommit 7a618801cd0e4bd9295f96fe2753199c440bc161[m
+Author: darus <claudio.vargas.lillo@gmail.com>
+Date:   Sun Nov 11 10:23:33 2018 -0300
+
+    first commit
+
+[33mcommit 430c37fb621505d81fee43bb6d3d7a9c4c88ded6[m
+Author: darus <claudio.vargas.lillo@gmail.com>
+Date:   Sun Nov 4 20:06:02 2018 -0300
+
+    initial commit

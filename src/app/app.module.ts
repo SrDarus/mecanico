@@ -17,8 +17,9 @@ import { LoginService } from './services/login.service';
 const appRoutes: Routes = [
   { path: 'header', component: HeaderComponent },
   { path: 'main',      component: MainComponent },
+  { path: 'login',      component: LoginComponent },
   { path: '',
-    redirectTo: '/main',
+    redirectTo: '/login',
     pathMatch: 'full'
   },
   { path: '**', component: LoginComponent }
