@@ -12,7 +12,7 @@
 			    	required
 			    	email
 			    	placeholder="Ingrese un usuario">
-			    <div [hidden]="email.valid" class="alert alert-danger">
+			    <div [hidden]="email.valid" class="small text-danger">
 	            Usuario incorrecto
 	      		</div>
 		    </div>
@@ -27,7 +27,7 @@
 		    		required
 		    		minlength="6" 
 		    		placeholder="Ingrese un password">
-			    <div [hidden]="password.valid" class="alert alert-danger">
+			    <div [hidden]="password.valid" class="small text-danger">
 	            	Password incorrecto
 	      		</div>
             </div>
