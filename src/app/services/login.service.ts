@@ -7,7 +7,8 @@ import { HttpClient } from '@angular/common/http';
 export class LoginService {
   //http://localhost:8080/apis/mecanicoApi/login.php?email=claudio@gmail.com&password=claudio
 
-	private urlBase:string="http://localhost:8080/apis/mecanicoApi/"
+	//private urlBase:string="http://localhost:8080/apis/mecanicoApi/"
+	private urlBase:string="http://localhost:80/apis/mecanicoApi/"
 
 
 

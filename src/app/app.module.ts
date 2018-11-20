@@ -13,6 +13,8 @@ import { LoginComponent } from './components/login/login.component';
 
 //SERVICES
 import { LoginService } from './services/login.service';
+import { SectionComponent } from './components/main/section/section.component';
+import { AsideComponent } from './components/main/aside/aside.component';
 
 const appRoutes: Routes = [
   { path: 'header', component: HeaderComponent },
@@ -30,7 +32,9 @@ const appRoutes: Routes = [
     AppComponent,
     HeaderComponent,
     MainComponent,
-    LoginComponent
+    LoginComponent,
+    SectionComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,
