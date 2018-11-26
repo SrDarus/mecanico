@@ -16,6 +16,9 @@ import { LoginService } from './services/login.service';
 import { SectionComponent } from './components/main/section/section.component';
 import { AsideComponent } from './components/main/aside/aside.component';
 
+//LIBRERIAS
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 const appRoutes: Routes = [
   { path: 'header', component: HeaderComponent },
   { path: 'main',      component: MainComponent },
@@ -33,7 +36,7 @@ const appRoutes: Routes = [
     HeaderComponent,
     MainComponent,
     LoginComponent,
-    SectionComponent,
+    SectionComponent,  
     AsideComponent
   ],
   imports: [
@@ -41,7 +44,8 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFontAwesomeModule
   ],
   providers: [
     LoginService
